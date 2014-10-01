@@ -5,7 +5,7 @@ A scheme implementation of a command line file path search tool.
 
 ## Build
 
-Install Gambit Scheme.
+Install Gambit Scheme, then:
 
   ```sh
   $ mkdir bin
@@ -21,7 +21,7 @@ Help/usage instructions
 
 List all file paths in child directories.
   ```sh
-  $ inPath ./
+  $ inPath ../some/path/
   ```
 
 Filter file paths with a string.
