@@ -1,4 +1,4 @@
-(define	(isDir? path)
+(define  (isDir? path)
   (string=?
     ""
     (path-strip-directory path)))
@@ -8,17 +8,17 @@
     '()
     (cons
       (path-normalize
-				(string-append
-					path
-					(car files)))
+        (string-append
+          path
+          (car files)))
       (filesToPaths
-				(cdr files)
-				path))))
+        (cdr files)
+        path))))
 
 (define (subPaths path)
   (filesToPaths
-		(directory-files path)
-		path))
+    (directory-files path)
+    path))
 
 (define (filesFromPaths paths files)
   (if (null? paths)
