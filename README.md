@@ -5,7 +5,7 @@ A scheme implementation of a command line file path search tool.
 
 ## Build
 
-Install Gambit Scheme, then:
+Install Gambit Scheme (if you see compiler errors you may have issues between the [https://github.com/Homebrew/homebrew/issues/17099](compiler that built gambit and the default on your system)), then:
 
   ```sh
   $ ./build.sh 
