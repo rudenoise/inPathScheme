@@ -8,8 +8,7 @@ A scheme implementation of a command line file path search tool.
 Install Gambit Scheme, then:
 
   ```sh
-  $ mkdir bin
-  $ gsc -o bin/inPath -exe inStr.scm cli.scm inPath.scm 
+  $ ./build.sh 
   ```
 
 ## Run
