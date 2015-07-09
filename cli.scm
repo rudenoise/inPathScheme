@@ -1,7 +1,3 @@
-; build with: gsc -o inPath -exe cli.scm inPath.scm 
-(load "inPath.scm")
-(load "inStr.scm")
-
 (define (printMatchingPaths str paths)
   (if (not (null? paths))
     (begin
