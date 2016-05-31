@@ -5,7 +5,7 @@ A scheme implementation of a command line file path search tool.
 
 ## Build
 
-Install Gambit Scheme (if you see compiler errors you may have issues between the [compiler that built gambit and the default on your system](https://github.com/Homebrew/homebrew/issues/17099)), then:
+Install [Gambit Scheme](http://gambitscheme.org/wiki/index.php/Documentation) (gsc, gsi...).
 
 ```sh
 make 
@@ -14,16 +14,16 @@ make
 ## Run
 
 Help/usage instructions
-  ```sh
-  $ inPath
-  ```
+```sh
+$ inPath
+```
 
 List all file paths in child directories.
-  ```sh
-  $ inPath ../some/path/
-  ```
+```sh
+$ inPath ../some/path/
+```
 
 Filter file paths with a string.
-  ```sh
-  $ inPath .scm ./
-  ```
+```sh
+$ inPath .scm ./
+```
