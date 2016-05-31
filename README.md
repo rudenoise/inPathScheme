@@ -7,9 +7,9 @@ A scheme implementation of a command line file path search tool.
 
 Install Gambit Scheme (if you see compiler errors you may have issues between the [compiler that built gambit and the default on your system](https://github.com/Homebrew/homebrew/issues/17099)), then:
 
-  ```sh
-  $ ./build.sh 
-  ```
+```sh
+make 
+```
 
 ## Run
 
