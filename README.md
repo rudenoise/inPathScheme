@@ -5,7 +5,7 @@ A scheme implementation of a command line file path search tool.
 
 ## Build
 
-Install [Gambit Scheme](http://gambitscheme.org/wiki/index.php/Documentation) (gsc, gsi...).
+Install [Gambit Scheme v4.8.4+](http://gambitscheme.org/wiki/index.php/Documentation) (gsc, gsi...).
 
 ```sh
 make 
